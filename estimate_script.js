@@ -5,12 +5,10 @@ const axios = require('axios');
 const solc = require('solc');
 require("dotenv").config();
 
-// Define your contracts root directory
 const contractsRootDir = path.resolve(__dirname, "contracts");
 const etherscanApiKey = process.env.ETHERSCAN_API;
 const provider = new ethers.JsonRpcProvider('https://cloudflare-eth.com');
 
-// Utility function to read all Solidity files and their content
 function findImports(importPath) {
     const fileName = path.basename(importPath);
     const resolvedPath = path.resolve(contractsRootDir, fileName);
@@ -81,6 +79,9 @@ async function estimateDeploymentCost(contractPath) {
 
 
         console.log(`Contract Bytecode Length: ${bytecode.length} characters`);
+        
+        let methodStd = false;
+        let methodBytesize = false;
 
         try {
             const deployTransaction = { data: '0x' + bytecode };
@@ -100,6 +101,10 @@ async function estimateDeploymentCost(contractPath) {
             console.log(`Priority Fee: ${ethers.formatUnits(priorityFee, 'gwei')} gwei`);
             console.log(`ETH Price: $${ethPriceUsd} USD`);
             console.log(`Estimated Deployment Cost: ${estimatedCostEth} ETH (~$${estimatedCostUsd.toFixed(2)} USD)`);
+            
+            methodStd = true;
+
+            console.log(`Standard Method Used: ${methodStd}`);
         } catch (err) {
 
             const byteSize = bytecode.length / 2;
@@ -117,6 +122,11 @@ async function estimateDeploymentCost(contractPath) {
             console.log(`Gas Price: ${ethers.formatUnits(gasPrice, 'gwei')} gwei`);
             console.log(`ETH Price: $${ethPriceUsd} USD`);
             console.log(`Estimated Deployment Cost: ${estimatedCostEth} ETH (~$${estimatedCostUsd.toFixed(2)} USD)`);
+            
+            methodBytesize = true;
+
+            console.log(`Bytesize Method Used: ${methodBytesize}`);
+
         }
     } catch (error) {
         console.log("Compilation had an error");
