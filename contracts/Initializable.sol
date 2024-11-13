@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts (last updated v4.9.0) (proxy/utils/Initializable.sol)
+// OpenZeppelin Contracts (last updated v4.8.0) (proxy/utils/Initializable.sol)
 
 pragma solidity ^0.8.2;
 
@@ -18,13 +18,12 @@ import "./AddressUpgradeable.sol";
  * For example:
  *
  * [.hljs-theme-light.nopadding]
- * ```solidity
+ * ```
  * contract MyToken is ERC20Upgradeable {
  *     function initialize() initializer public {
  *         __ERC20_init("MyToken", "MTK");
  *     }
  * }
- *
  * contract MyTokenV2 is MyToken, ERC20PermitUpgradeable {
  *     function initializeV2() reinitializer(2) public {
  *         __ERC20Permit_init("MyToken");
@@ -144,21 +143,21 @@ abstract contract Initializable {
      */
     function _disableInitializers() internal virtual {
         require(!_initializing, "Initializable: contract is initializing");
-        if (_initialized != type(uint8).max) {
+        if (_initialized < type(uint8).max) {
             _initialized = type(uint8).max;
             emit Initialized(type(uint8).max);
         }
     }
 
     /**
-     * @dev Returns the highest version that has been initialized. See {reinitializer}.
+     * @dev Internal function that returns the initialized version. Returns `_initialized`
      */
     function _getInitializedVersion() internal view returns (uint8) {
         return _initialized;
     }
 
     /**
-     * @dev Returns `true` if the contract is currently initializing. See {onlyInitializing}.
+     * @dev Internal function that returns the initialized version. Returns `_initializing`
      */
     function _isInitializing() internal view returns (bool) {
         return _initializing;
