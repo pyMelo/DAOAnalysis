@@ -1,0 +1,17 @@
+File,Logic Contracts,Interfaces,Lines,nLines,nSLOC,Comment Lines,Complex. Score
+DAOs/DexeDAO/@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol,1,,117,117,40,62,24
+DAOs/DexeDAO/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol,1,,244,198,86,136,41
+DAOs/DexeDAO/@openzeppelin/contracts/utils/structs/EnumerableSet.sol,1,,378,378,123,210,53
+DAOs/DexeDAO/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol,1,,37,37,15,17,6
+DAOs/DexeDAO/contracts/gov/ERC20/ERC20Gov.sol,1,,119,106,81,1,62
+DAOs/DexeDAO/contracts/interfaces/gov/ERC20/IERC20Gov.sol,,1,51,27,11,24,13
+DAOs/DexeDAO/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol,1,,166,166,48,107,18
+DAOs/DexeDAO/@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol,1,,377,377,120,217,89
+DAOs/DexeDAO/@solarity/solidity-lib/libs/data-structures/StringSet.sol,1,,101,101,45,42,7
+DAOs/DexeDAO/@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol,,1,78,38,16,58,13
+DAOs/DexeDAO/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol,,1,28,17,4,16,9
+DAOs/DexeDAO/@solarity/solidity-lib/libs/arrays/SetHelper.sol,1,,61,61,38,14,37
+DAOs/DexeDAO/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20PausableUpgradeable.sol,1,,49,49,16,27,14
+DAOs/DexeDAO/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20CappedUpgradeable.sol,1,,51,51,21,22,17
+DAOs/DexeDAO/@solarity/solidity-lib/libs/arrays/Paginator.sol,1,,144,112,65,20,130
+DAOs/DexeDAO/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol,1,,52,52,18,28,19

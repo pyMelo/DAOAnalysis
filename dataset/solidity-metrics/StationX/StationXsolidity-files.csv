@@ -1,0 +1,31 @@
+File,Logic Contracts,Interfaces,Lines,nLines,nSLOC,Comment Lines,Complex. Score
+DAOs/StationX/TransparentUpgradeableProxy/contracts/import.sol,1,,13,13,9,2,7
+DAOs/StationX/TfiExample (implementation)/contracts/TfiClient.sol,1,,322,292,134,135,70
+DAOs/StationX/TfiExample (implementation)/contracts/TfiExample.sol,1,,112,96,79,2,86
+DAOs/StationX/TfiExample (implementation)/@chainlink/contracts/src/v0.8/Chainlink.sol,1,,135,110,49,51,22
+DAOs/StationX/TfiExample (implementation)/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol,1,,195,158,65,112,36
+DAOs/StationX/TfiExample (implementation)/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol,1,,37,37,15,17,6
+DAOs/StationX/TfiExample (implementation)/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol,1,,95,95,36,46,30
+DAOs/StationX/TfiExample (implementation)/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol,1,,138,138,42,87,18
+DAOs/StationX/TfiExample (implementation)/@chainlink/contracts/src/v0.8/interfaces/ChainlinkRequestInterface.sol,,1,22,5,3,1,5
+DAOs/StationX/TfiExample (implementation)/@chainlink/contracts/src/v0.8/interfaces/ENSInterface.sol,,1,34,17,7,5,15
+DAOs/StationX/TfiExample (implementation)/@chainlink/contracts/src/v0.8/vendor/BufferChainlink.sol,1,,337,306,146,135,303
+DAOs/StationX/TfiExample (implementation)/@chainlink/contracts/src/v0.8/vendor/CBORChainlink.sol,1,,94,94,78,1,67
+DAOs/StationX/TfiExample (implementation)/@chainlink/contracts/src/v0.8/interfaces/OperatorInterface.sol,,1,40,8,5,1,22
+DAOs/StationX/TfiExample (implementation)/@chainlink/contracts/src/v0.8/vendor/ENSResolver.sol,1,,6,5,3,1,3
+DAOs/StationX/TfiExample (implementation)/@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol,,1,36,5,3,1,25
+DAOs/StationX/TfiExample (implementation)/@chainlink/contracts/src/v0.8/interfaces/OracleInterface.sol,,1,19,5,3,1,9
+DAOs/StationX/TfiExample (implementation)/@chainlink/contracts/src/v0.8/interfaces/PointerInterface.sol,,1,6,5,3,1,3
+DAOs/StationX/TfiExample (implementation)/@openzeppelin/contracts/utils/Strings.sol,1,,75,75,49,19,45
+DAOs/StationX/TransparentUpgradeableProxy/@openzeppelin/contracts/access/Ownable.sol,1,,68,68,27,33,24
+DAOs/StationX/TransparentUpgradeableProxy/@openzeppelin/contracts/utils/Address.sol,1,,189,169,78,113,47
+DAOs/StationX/TransparentUpgradeableProxy/@openzeppelin/contracts/utils/StorageSlot.sol,1,,83,83,35,39,17
+DAOs/StationX/TransparentUpgradeableProxy/@openzeppelin/contracts/utils/Context.sol,1,,24,24,10,12,1
+DAOs/StationX/TransparentUpgradeableProxy/@openzeppelin/contracts/proxy/Proxy.sol,1,,83,76,25,47,48
+DAOs/StationX/TransparentUpgradeableProxy/@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol,1,,77,77,24,45,30
+DAOs/StationX/TransparentUpgradeableProxy/@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol,1,,120,120,37,72,43
+DAOs/StationX/TransparentUpgradeableProxy/@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol,1,,189,140,67,82,48
+DAOs/StationX/TransparentUpgradeableProxy/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol,1,,32,32,12,16,14
+DAOs/StationX/TransparentUpgradeableProxy/@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol,1,,61,61,19,36,18
+DAOs/StationX/TransparentUpgradeableProxy/@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol,1,,64,64,22,34,16
+DAOs/StationX/TransparentUpgradeableProxy/@openzeppelin/contracts/proxy/beacon/IBeacon.sol,,1,15,14,3,9,3

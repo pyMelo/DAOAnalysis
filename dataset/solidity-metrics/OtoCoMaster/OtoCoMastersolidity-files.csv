@@ -1,0 +1,19 @@
+File,Logic Contracts,Interfaces,Lines,nLines,nSLOC,Comment Lines,Complex. Score
+DAOs/OtoCoMaster/contracts/OtoCoMasterV2.sol,1,,361,346,184,125,177
+DAOs/OtoCoMaster/contracts/utils/IOtoCoJurisdiction.sol,,1,13,5,3,1,17
+DAOs/OtoCoMaster/contracts/utils/IOtoCoURI.sol,,1,6,5,3,1,3
+DAOs/OtoCoMaster/contracts/utils/IOtoCoPlugin.sol,,1,32,14,4,20,16
+DAOs/OtoCoMaster/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol,1,,88,88,33,43,29
+DAOs/OtoCoMaster/@openzeppelin/contracts/utils/Counters.sol,1,,43,43,24,14,2
+DAOs/OtoCoMaster/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol,1,,195,158,65,111,36
+DAOs/OtoCoMaster/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol,1,,149,149,49,90,19
+DAOs/OtoCoMaster/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol,1,,37,37,15,17,6
+DAOs/OtoCoMaster/@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol,,1,143,63,40,100,21
+DAOs/OtoCoMaster/@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol,,1,27,21,3,16,3
+DAOs/OtoCoMaster/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol,1,,459,416,165,193,147
+DAOs/OtoCoMaster/@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol,1,,67,67,45,16,41
+DAOs/OtoCoMaster/@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol,,1,25,24,3,19,3
+DAOs/OtoCoMaster/@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol,1,,42,42,13,24,11
+DAOs/OtoCoMaster/@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol,,1,35,5,3,4,11
+DAOs/OtoCoMaster/@openzeppelin/contracts-upgradeable/token/ERC721/extensions/IERC721MetadataUpgradeable.sol,,1,27,16,4,15,9
+DAOs/OtoCoMaster/contracts/utils/IOtoCoMaster.sol,,1,17,11,5,7,10
