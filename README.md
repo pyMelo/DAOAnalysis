@@ -37,15 +37,12 @@ DAOAnalysis/
 │── contracts/             # Contiene i file Solidity degli smart contract DAO
 │── dataset/               # Dataset utilizzati per l'analisi delle DAO
 │── script/                # Script di automazione per la raccolta e modifica dei contratti
-│── NounsDAO.html          # File HTML relativo al Nouns DAO
 │── README.md              # Documentazione del progetto
 │── collectFiles.py        # Script Python per raccogliere file Solidity
 │── estimateBytesize.js    # Script per stimare la dimensione del bytecode degli smart contract
-│── estimateChat.py        # Script Python per stimare metriche basate sulla chat
 │── hardhat.config.js      # Configurazione di Hardhat
 │── importsModifier.py     # Script Python per modificare gli import nei file Solidity
 │── package.json           # Metadati del progetto Node.js
-│── rand.js                # Script JavaScript per operazioni casuali
 │── solidityMetrics.py     # Script Python per analizzare metriche Solidity
 ```
 
